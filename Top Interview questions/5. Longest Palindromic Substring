@@ -6,7 +6,7 @@ class Solution {
         {
             return s;
         }
-        int maxLen=Integer.MIN_VALUE;
+        int maxLen=1;
         int startIdx=0,start,end;
         for(int i=1;i<s.length();i++)
         {
